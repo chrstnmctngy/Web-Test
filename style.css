@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: underline;
+    color: red;
+    word-spacing: 20px;
+}
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+table {
+    margin-left: 150px;
+}
+th {
+    background-color: green;
+}
+td {
+    background-color: gray;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+ol {
+    margin-left: 125px;
+}
+ol > li::marker {
+    font-weight: bold;
+  }
