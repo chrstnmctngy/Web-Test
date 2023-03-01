@@ -3,8 +3,8 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     text-decoration: underline;
+    text-underline-offset: 20px;
     color: red;
-    word-spacing: 20px;
 }
 p {
     font-size: 24px;
